@@ -1,0 +1,16 @@
+.arrow {
+  stroke: red;
+  stroke-width: 2;
+  marker-end: url(#markerArrow);
+  z-index: -1;
+}
+
+#markerArrow {
+  fill: red;
+}
+
+#connectors {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
